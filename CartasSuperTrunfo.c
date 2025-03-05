@@ -11,8 +11,8 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
     char Estado1;
-    char Codigo1;
-    char Nome1;
+    char Codigo1[4];
+    char Nome1[50];
     int Populacao1;
     float Area1;
     float Pib1;
@@ -21,8 +21,8 @@ int main() {
     // Declaração de variáveis para a segunda carta
 
     char Estado2;
-    char Codigo2;
-    char Nome2;
+    char Codigo2[4];
+    char Nome2[50];
     int Populacao2;
     float Area2;
     float Pib2;
